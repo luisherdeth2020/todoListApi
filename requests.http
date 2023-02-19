@@ -1,0 +1,16 @@
+###
+POST http://localhost:9000/api/new 
+Content-Type: application/json
+
+{
+"text":"Partido con asda"
+}
+
+###
+GET http://localhost:9000/api/todos
+
+###
+DELETE http://localhost:9000/api/todos/delete/63ef7b178694d1fb75c5d5eb
+
+###
+PUT http://localhost:9000/api/todos/complete/63ef7b1d8694d1fb75c5d5ed
