@@ -31,6 +31,10 @@ export const deleteTodoController = async (req, res) => {
 export const getLineController = async (req, res) => {
 	const todo = await newSchema.findById(req.params.id);
 
+	if (!todo) {
+		return res.status(404).json({ message: 'Todo not found' });
+	}
+
 	todo.complete = !todo.complete;
 	todo.save()
 		.then((data) => res.json(data))
