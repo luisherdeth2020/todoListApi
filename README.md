@@ -8,5 +8,5 @@ Como a veces olvidamos cosas, decidí crear una aplicación web donde pudiéramo
 
 ### Autores ✒️
 
-* **Luis Herdeth** - [WikiPadel](https://wikitask.netlify.app)
+* **Luis Herdeth** - [WikiTask](https://wikitask.netlify.app)
 
