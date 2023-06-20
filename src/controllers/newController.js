@@ -24,7 +24,7 @@ export const deleteTodoController = async (req, res) => {
 	const { id } = req.params;
 	await newSchema
 
-		.remove({ _id: id })
+		.deleteOne({ _id: id })
 		.then((data) => res.json(data))
 		.catch((error) => res.json({ message: error }));
 };
